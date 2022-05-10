@@ -6,4 +6,28 @@ li {
     border-radius: 25px;
 }
 
+
 /* Your code here */
+li[data-type="drinks"] {
+    background-color: gold;
+    color: black;
+}
+
+li[data-type="bakery"] {
+    background-color: pink;
+    color: black;
+}
+
+li[data-type="canned"] {
+    background-color: silver;
+    color: black;
+}
+
+li[data-type="dairy"] {
+    background-color: blue;
+    color: gold;
+}
+
+li[data-type="frozen"] {
+    background-color: lightblue;
+}
